@@ -16,6 +16,7 @@
     --a-main: #1470c7;
     --color-a: #fff;
     --color-a-main: #7d7474;
+    --a-mainfooter: #129ddd;
 }
 
 @media (max-width: 768px){
@@ -24,6 +25,7 @@
     body {
         background-color: var(--background-color);
         font-family: Arial, Helvetica, sans-serif ;
+        margin: 10px;
         
     }
 }
@@ -61,6 +63,24 @@ main {
     border-radius: 10px;
 }
 
+.destaques p {
+    color: aliceblue;
+    background-color: #0303034b;
+}
+
+.destaques a {
+
+    color: #57dbfc;
+}
+
+.destaques li {
+    color: aliceblue;
+    background-color: #4e4b4b3b;
+
+}
+
+
+
 
 header, footer {
     text-align: center;
@@ -77,11 +97,6 @@ a {
     margin-right: 15px;
 }
 
-.a {
-    background-color: #1066b8;
-
-}
-
 a:hover {
     color: var(--a-hover);
 }
@@ -89,6 +104,7 @@ a:hover {
 .a-main {
     color: var(--a-main);
 }
+
 
 li {
     list-style: none;
@@ -100,6 +116,7 @@ section {
     align-items: center;
     background-color: var(--backgroundcolor-section);
     border-radius: 10px;
+    padding: 12px;
     
 }
 
