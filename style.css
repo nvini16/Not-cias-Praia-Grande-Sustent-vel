@@ -13,7 +13,8 @@
     --color-header: #d1cfcf;
     --border-main: #3d3a3a;
     --a-hover: #00c9fb;
-    --a-main: #000000;
+    --a-main: #1470c7;
+    --color-a: #fff;
     --color-a-main: #7d7474;
 }
 
@@ -35,14 +36,13 @@ main {
  
 }
 
-@media (max-width:768px) {
 
-    .video {
-        border: 3px solid #00c9fb;
-        border-radius: 10px;
-        max-width: 768px;
+.video {
+    border: 3px solid #00c9fb;
+    border-radius: 10px;
+    max-width: 768px;
+    width: 100%;
         
-    }
 }
 
 .img {
@@ -72,10 +72,14 @@ header, footer {
 
 a {
     text-decoration: none;
-    color: var(--color-header);
+    color: var(--color-a);
     display: inline-block;
     margin-right: 15px;
-    
+}
+
+.a {
+    background-color: #1066b8;
+
 }
 
 a:hover {
