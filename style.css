@@ -45,9 +45,8 @@ main {
     }
 }
 
-img {
-    height: 40vh;
-    width: 60vh;
+.img {
+    width: 100%;
     box-shadow: 6px 6px  10px rgb(116, 115, 115);
     border: 3px solid #00c9fb;
     border-radius: 10px;
@@ -55,12 +54,19 @@ img {
     
 }
 
+.img img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
 
 header, footer {
     text-align: center;
     background-color: var(--background-header) ;
     color: var(--color-header);
-  
+    border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -89,12 +95,14 @@ section {
  
     align-items: center;
     background-color: var(--backgroundcolor-section);
+    border-radius: 10px;
     
 }
 
 h2 {
     text-align: center;
     background-color: var(--backgroundcolor-main);
+    border-radius: 10px;
 }
 
 h4 {
