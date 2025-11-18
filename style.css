@@ -45,6 +45,8 @@ html {
 main {
 
     border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+
 
  
 }
@@ -92,7 +94,7 @@ main {
 
 .destaques ,em {
     color: #fff;
-    background-color: #0303037a;
+    background-color: #03030362;
 }
 
 .destaques- {
