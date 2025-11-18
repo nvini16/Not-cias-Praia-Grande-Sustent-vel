@@ -76,7 +76,7 @@ main {
 
 .destaques p {
     color: aliceblue;
-    background-color: #08080883;
+    background-color: #08080888;
 }
 
 .destaques a {
@@ -90,9 +90,9 @@ main {
 
 }
 
-.destaques .eme {
+.destaques ,em {
     color: #fff;
-    background-color: #0303034b;
+    background-color: #0303037a;
 }
 
 .destaques- {
