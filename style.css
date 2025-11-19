@@ -1,5 +1,5 @@
 :root {
-    --background-color: #d8d3d3;
+    --background-color: #a09b9b;
     --background-header: #257fbf;
     --backgroundcolor-section: #f8f2f2;
     --backgroundcolor-main: #257fbf;
@@ -8,6 +8,7 @@
     --backgroundcolor-h4: #729cd0;
     --backgroundcolor-button: #0288d1;
     --backgroundcolor-em: #b6b0b0;
+    --border-video: #00c9fb;
     --box-shadow: #b0a9a9;
     --color: #000;
     --color-header: #d1cfcf;
@@ -53,7 +54,7 @@ main {
 
 
 .video {
-    border: 3px solid #00c9fb;
+    border: 3px solid var(--border-video);
     border-radius: 10px;
     max-width: 768px;
     width: 100%;
@@ -63,7 +64,7 @@ main {
 .img {
     width: 100%;
     box-shadow: 6px 6px  10px rgb(116, 115, 115);
-    border: 3px solid #00c9fb;
+    border: 3px solid var(--border-video);
     border-radius: 10px;
     text-align: center;
     
@@ -202,6 +203,14 @@ a {
 .padding {
     padding: 40px;
     margin: 10px;
+}
+
+.background-img {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./imgs.png/PG.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
